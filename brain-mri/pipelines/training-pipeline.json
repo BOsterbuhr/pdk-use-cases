@@ -12,6 +12,7 @@
       "empty_files": true
     }
   },
+  "datum_tries": 1,
   "transform": {
     "cmd": [
       "/bin/sh"
