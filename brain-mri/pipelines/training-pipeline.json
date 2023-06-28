@@ -18,7 +18,7 @@
       "/bin/sh"
     ],
     "stdin": [
-      "python train.py --git-url https://git@github.com:/bosterbuhr/pdk-use-cases.git --git-ref main --sub-dir brain-mri/experiment --config const.yaml --repo brain-mri-data --model brain-mri --project meta"
+      "python train.py --git-url https://git@github.com:/bosterbuhr/pdk-use-cases.git --git-ref main --sub-dir brain-mri/experiment --config const.yaml --repo brain-mri-data --model brain-mri-new --project meta"
     ],
     "image": "vmtyler/pdk:train_0.1.1",
     "secrets": [

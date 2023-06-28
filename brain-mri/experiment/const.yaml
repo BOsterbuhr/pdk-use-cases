@@ -28,11 +28,11 @@ searcher:
   metric: val_IoU
   smaller_is_better: False
   max_length:
-    epochs: 50
+    epochs: 10
 min_validation_period:
-  epochs: 10
+  epochs: 1
 resources:
-  slots_per_trial: 2
+  slots_per_trial: 1
 max_restarts: 0
 entrypoint: model_def:MRIUnetTrial
 profiling:
