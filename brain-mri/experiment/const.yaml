@@ -1,4 +1,4 @@
-name: Pipeline-Run-Brain-MRI-1GPU
+name: DeDuplication Test Pachyderm Repo
 workspace: DeDuplication
 project: internal
 data:
