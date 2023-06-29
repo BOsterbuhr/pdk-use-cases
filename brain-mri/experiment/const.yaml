@@ -1,4 +1,4 @@
-name: DeDuplication Test Pachyderm Repo
+name: DeDuplication Test External S3
 workspace: DeDuplication
 project: internal
 data:
