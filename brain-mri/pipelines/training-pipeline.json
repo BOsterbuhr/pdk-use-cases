@@ -6,19 +6,20 @@
   "input": {
     "pfs": {
       "name": "data",
-      "repo": "brain-mri-data",
+      "repo": "dedup-input-pachyderm",
       "branch": "master",
       "glob": "/",
       "empty_files": true
     }
   },
   "datum_tries": 1,
+  "autoscaling": true,
   "transform": {
     "cmd": [
       "/bin/sh"
     ],
     "stdin": [
-      "python train.py --git-url https://git@github.com:/bosterbuhr/pdk-use-cases.git --git-ref main --sub-dir brain-mri/experiment --config const.yaml --repo brain-mri-data --model brain-mri-new --project meta"
+      "python train.py --git-url https://git@github.com:/bosterbuhr/pdk-use-cases.git --git-ref main --sub-dir brain-mri/experiment --config const.yaml --repo dedup-input-pachyderm --model pachyderm-dedup --project test"
     ],
     "image": "vmtyler/pdk:train_0.1.1",
     "secrets": [

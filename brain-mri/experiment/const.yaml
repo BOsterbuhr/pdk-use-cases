@@ -1,6 +1,6 @@
 name: Pipeline-Run-Brain-MRI-1GPU
-workspace: Pipeline Brain MRI
-project: meta
+workspace: DeDuplication
+project: internal
 data:
   data_dir: "/data"
   repo: "mateuszbuda/brain-segmentation-pytorch"
