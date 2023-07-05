@@ -1,6 +1,6 @@
 name: DeDuplication Test External S3
-workspace: DeDuplication
-project: internal
+workspace: Demo
+project: meta
 data:
   data_dir: "/data"
   repo: "mateuszbuda/brain-segmentation-pytorch"
