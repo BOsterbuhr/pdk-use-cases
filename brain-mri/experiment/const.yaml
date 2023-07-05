@@ -1,4 +1,4 @@
-name: DeDuplication Test External S3
+name: Meta Demo
 workspace: Demo
 project: meta
 data:
