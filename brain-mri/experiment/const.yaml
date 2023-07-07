@@ -1,6 +1,6 @@
-name: Meta Demo
-workspace: Demo
-project: meta
+name: E2E Brain MRI Test
+workspace: Brain MRI
+project: e2e-test
 data:
   data_dir: "/data"
   repo: "mateuszbuda/brain-segmentation-pytorch"
