@@ -1,4 +1,4 @@
-name: E2E Brain MRI Test
+name: PDK Test
 workspace: Brain MRI
 project: pdk
 data:
